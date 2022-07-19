@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="script.js">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome icons -->
     <script src="https://kit.fontawesome.com/7c9723d9bd.js" crossorigin="anonymous"></script>
@@ -15,8 +15,9 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="images/logo.png" ></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hidemenu" ></i>
+            <div class="nav-links" id="navlinks">
+                
+                <i class="fa-solid fa-xmark" onclick="hidemenu()" ></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -26,10 +27,11 @@
 
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showmenu"></i>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+
         </nav>
         <div class="text-box">
-            <h1>It Is Best Univercity</h1>
+            <h1>It Is Best University</h1>
             <p>Now we are here to admit you <br>Are ready to lounch your career with us</p>
             <br>
             <a href="" class="hero-btn">Visit us To know More</a>

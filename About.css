@@ -19,6 +19,7 @@
 .about-col{
     flex-basis: 48%;
     padding: 30px 2px;
+    
 }
 .about-col img{
     width: 100%;
@@ -29,6 +30,7 @@
 }
 .about-col p{
     padding: 15px 0 25px;
+    color: black;
 }
 .red-btn{
     border: 1px solid #f44336;
